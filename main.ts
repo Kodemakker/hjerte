@@ -1,4 +1,5 @@
 basic.forever(function () {
+    music.play(music.stringPlayable("A - C - G C C5 - ", 120), music.PlaybackMode.UntilDone)
     basic.showIcon(IconNames.Heart)
     basic.pause(100)
     basic.showIcon(IconNames.Diamond)
@@ -7,4 +8,5 @@ basic.forever(function () {
     basic.pause(100)
     basic.showIcon(IconNames.Confused)
     basic.pause(100)
+    music.play(music.stringPlayable("A - C - G C C5 - ", 120), music.PlaybackMode.UntilDone)
 })
